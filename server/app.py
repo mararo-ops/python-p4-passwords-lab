@@ -13,7 +13,7 @@ class ClearSession(Resource):
         session['page_views'] = None
         session['user_id'] = None
 
-        return {}, 204
+        return {}, 2040
 
 class Signup(Resource):
     
